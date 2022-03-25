@@ -1,0 +1,10 @@
+{
+    "title": "How to Learn ReactJs. Make you own SEO friendly WEB APPS",
+    "snippit": "The techniques you'll learn in the tutorial are fundamental to building any React app, and mastering it will give you a deep understanding of React.",
+
+
+    "Author": "Admin",
+    "date": "2022-03-25",
+    "slug": "how-to-learn-nextjs",
+    "content":"Every front-end developer and web developer knows how frustrating and painful it is to write the same code at multiple places. If they need to add a button on multiple pages they are forced to do a lot of code. Developers using other frameworks face the challenges to rework most codes even when crafting components that changed frequently. Developers wanted a framework or library which allow them to break down complex components and reuse the codes to complete their projects faster. Here React comes in and solved this problem.React is the most popular javascript library for building user interfaces. It is fast, flexible and it also has a strong community sitting online to help you every time. The coolest thing about React is it’s based on components, you break down your complex code into individual pieces i.e components and that helps developers in organizing their code in a better way. A lot of companies are moving to React and that’s the reason most of the beginners and experienced developers also expanding their knowledge learning this library. Learning this library is a daunting task. You watch a lot of tutorials and you try to get the best material to learn this library but it can become overwhelming if you don’t know the right path or step-by-step process to learn it. We are going to discuss a roadmap to get started with React and the fundamental prerequisites (checklist) to jump into React. Let’s get started…"
+}

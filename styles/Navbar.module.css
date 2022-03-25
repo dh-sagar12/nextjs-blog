@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+
+}
+
+.navigations{
+    display: flex;
+    list-style: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navigations > li {
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.navItem:hover{
+    color: cyan;
+}
