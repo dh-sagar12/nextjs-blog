@@ -1,8 +1,7 @@
 {
+    "id":3,
     "title": "How to Learn ReactJs. Make you own SEO friendly WEB APPS",
-    "snippit": "The techniques you'll learn in the tutorial are fundamental to building any React app, and mastering it will give you a deep understanding of React.",
-
-
+    "snippet": "The techniques you'll learn in the tutorial are fundamental to building any React app, and mastering it will give you a deep understanding of React.",
     "Author": "Admin",
     "date": "2022-03-25",
     "slug": "how-to-learn-nextjs",

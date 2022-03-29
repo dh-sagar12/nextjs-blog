@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 
 
 
-export default function Home() {
+export default function Home(props) {
   return (
     <>
       <div className={styles.container}>
@@ -25,12 +25,23 @@ export default function Home() {
             <code className={styles.code}>Top Blogs</code>
           </p>
 
-        <DisplayBlogs/>
-        
+          <DisplayBlogs blogs={props.allblogs} />
+
         </main>
 
 
       </div>
     </>
   )
+}
+
+
+export async function getServerSideProps(context) {
+  const response = await fetch('http://localhost:3000/api/allblogs');
+  const allblogs = await response.json()
+  return {
+    props: {
+      allblogs
+    }
+  }
 }

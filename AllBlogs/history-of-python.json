@@ -1,6 +1,7 @@
 {
+    "id":1,
     "title": "History of Python From Beginning to Now!",
-    "snippit": "Python was conceived in the late 1980s by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands as a successor to the ABC programming language, which was inspired by SETL, capable of exception handling and interfacing with the Amoeba operating system. Its implementation began in December 1989.",
+    "snippet": "Python was conceived in the late 1980s by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands as a successor to the ABC programming language, which was inspired by SETL, capable of exception handling and interfacing with the Amoeba operating system. Its implementation began in December 1989.",
     "Author": "Admin",
     "date": "2022-03-25",
     "slug": "history-of-python",
