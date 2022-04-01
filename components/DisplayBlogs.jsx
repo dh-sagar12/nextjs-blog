@@ -1,8 +1,7 @@
 import React from 'react'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
-import { useEffect, useState } from 'react'
-import { forwardRef } from 'react/cjs/react.production.min'
+import {  useState } from 'react'
 
 
 
