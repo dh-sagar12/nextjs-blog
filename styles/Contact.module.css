@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+
+.form{
+    width: 500px ;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    padding: 1rem 1rem;
+    margin-bottom: 1rem; 
+    font: inherit;
+    font-size: 1.2rem;
+}
+
+.submit{
+    max-width: 6rem;
+    margin: auto;
+    padding: 0.6rem 1rem;
+    margin: 1rem auto;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 12px ;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: rgb(41, 39, 39);
+
+}
+
+.message{
+    position: absolute; 
+    top: -12vh; 
+    padding: 10px 10px;
+    margin: 12px 0px;
+    color: rgb(0, 194, 58);
+    border: 1px solid rgb(43, 184, 43);
+    background-color: transparent;
+    border-radius: 10px;
+    transition: ease-out 0.3s;
+}
+
+.active{
+    top: 10vh;
+}
+
+.textarea{
+    resize: none;
+    padding: 1rem;
+}

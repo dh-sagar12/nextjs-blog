@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import DisplayBlogs from '../components/DisplayBlogs'
 import styles from '../styles/Home.module.css'
-import * as fs from 'fs';
+
 
 
 
@@ -38,27 +38,13 @@ export default function Home(props) {
 }
 
 
-// export async function getServerSideProps(context) {
-//   const response = await fetch('http://localhost:3000/api/allblogs');
-//   const allblogs = await response.json()
-//   return {
-//     props: {
-//       allblogs
-//     }
-//   }
-// }
-
-
-
-export async function getStaticProps(context) {
-  let files =   fs.readdirSync('AllBlogs')
-    let allblogs = []
-    files.forEach(element => {
-        let myblog = fs.readFileSync(`AllBlogs/${element}`, 'utf-8')
-       allblogs.push(JSON.parse(myblog))
-        
-    });
-return {
-  props: {allblogs}, // will be passed to the page component as props
+export async function getServerSideProps(context) {
+  const response = await fetch('http://localhost:3000/api/allblogs');
+  const allblogs = await response.json()
+  return {
+    props: {
+      allblogs
+    }
+  }
 }
-}
+
